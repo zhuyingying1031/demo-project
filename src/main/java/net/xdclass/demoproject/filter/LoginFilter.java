@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebFilter(urlPatterns = "/api/v1/pri/*",filterName = "loginFilter")
+//@WebFilter(urlPatterns = "/api/v1/pri/*",filterName = "loginFilter")
 public class LoginFilter implements Filter {
 
 	private  static final ObjectMapper objectMapper = new ObjectMapper();
